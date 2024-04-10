@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 p-4 flex justify-between items-center">
       {/* Left content */}
-      <div className="text-white">Logo</div>
+      <div className="text-white">LOTRADE</div>
 
       {/* Right content */}
       <div className="flex items-center">
