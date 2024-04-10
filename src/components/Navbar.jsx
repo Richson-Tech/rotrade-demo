@@ -3,11 +3,10 @@ import Link from "next/link";
 import Menu from "./Menu";
 import { RiShoppingCartLine } from "react-icons/ri";
 import { IoIosArrowDropdown } from "react-icons/io";
+import { PiNumberCircleOneBold } from "react-icons/pi";
 
 const Navbar = () => {
   return (
-   
-
     <nav className="bg-gray-800 p-4 flex justify-between items-center">
       {/* Left content */}
       <div className="text-white">Logo</div>
@@ -15,9 +14,10 @@ const Navbar = () => {
       {/* Right content */}
       <div className="flex items-center">
         {/* Cart */}
-        <div className="flex flex-row space-x-2 text-white mr-4">
+        <div className="flex flex-row text-white mr-4">
           <h6>Cart</h6>
           <RiShoppingCartLine size={24} />
+          <PiNumberCircleOneBold />
         </div>
 
         {/* Dropdown */}
