@@ -4,9 +4,9 @@ import Menu from "./Menu";
 
 const Navbar = () => {
   return (
-    <nav className="bg-amber-400 h-20 w-full text-black flex flex-row px-3 md:flex-row items-center justify-between md:h-24 lg:px-20 xl:px-40">
+    <nav className="bg-white h-20 w-full text-black flex flex-row px-3 md:flex-row items-center justify-between md:h-24 lg:px-20 xl:px-40">
       {/* LEFT SIDE */}
-      <div className="flex flex-col ">
+      <div className="flex flex-row ">
         <h1 className="text-2xl font-bold">Rotrade</h1>
         <p className="text-[#757575] text-sm">COMMUNITY SERVICE BLOCK GRANT</p>
       </div>
