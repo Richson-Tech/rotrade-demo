@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Menu from "./Menu";
 import { RiShoppingCartLine } from "react-icons/ri";
-import { IoIosArrowDropdown } from "react-icons/io";
 import { PiNumberCircleOneBold } from "react-icons/pi";
 
 const Navbar = () => {
