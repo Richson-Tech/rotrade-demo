@@ -39,7 +39,7 @@ const Slider = () => {
   return (
     <div className="relative flex flex-col h-36 w-96 md:h-[calc(100vh-9rem)] lg:flex-row">
       {/* IMAGE CONTAINER  */}
-      <div className="w-full  flex-1 relative">
+      <div className="w-full flex-1 relative">
         <Image
           src={data[currentSlide].image}
           alt="slider for image"
