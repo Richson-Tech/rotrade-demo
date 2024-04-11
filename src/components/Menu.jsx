@@ -38,7 +38,7 @@ const Menu = () => {
             <Link key={item.id} href={item.url} onClick={() => setOpen(false)}>
               <div className="flex items-center justify-between">
                 <span>{item.title}</span>
-                <IoIosArrowForward className="ml-10" size={24} />
+                <IoIosArrowRoundForward className="ml-10" size={24} />
               </div>
             </Link>
           ))}
