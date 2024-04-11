@@ -15,7 +15,7 @@ const data = [
     topic: "FURNITURE",
     title: "Superior living",
     last: "The perfect plcontemporary macure anC",
-    image: "/two.jpg",
+    image: "/jean.jpg",
   },
   {
     id: 3,
