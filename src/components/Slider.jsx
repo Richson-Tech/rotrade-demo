@@ -5,18 +5,23 @@ import React, { useEffect, useState } from "react";
 const data = [
   {
     id: 1,
-    title: "always fresh & always crispy & always hot",
+    topic: "FURNITURE",
+    title: "Better interiors",
+    last: "The perfect place for every contemporary furniture store and manufacturer This is I Imea",
     image: "/one.jpg",
   },
   {
     id: 2,
-    title: "we deliver your order wherever you are in NY",
+    topic: "FURNITURE",
+    title: "Better interiors",
+    last: "The perfect place for every contemporary furniture store and manufacturer This is I Imea",
     image: "/two.jpg",
   },
   {
-      id: 3,
-      topic:"FURNITURE",
+    id: 3,
+    topic: "FURNITURE",
     title: "Better interiors",
+    last: "The perfect place for every contemporary furniture store and manufacturer This is I Imea",
     image: "/three.jpg",
   },
 ];
