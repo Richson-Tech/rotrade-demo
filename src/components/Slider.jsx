@@ -49,6 +49,7 @@ const Slider = () => {
           objectFit="cover"
         />
         <div className="absolute top-0 left-0 w-full text-center">
+          <p className="text-white text-lg"> {data[currentSlide].topic}</p>
           <h2 className="text-white text-4xl font-bold">
             {data[currentSlide].title}
           </h2>
