@@ -6,15 +6,15 @@ const data = [
   {
     id: 1,
     topic: "FURNITURE",
-    title: "Better interiors",
-    last: "The perfect place for every contemporary furniture store and manufacturer This is I Imea",
+    title: "Beauty indoors",
+    last: "The perfect place for every contemporary furniture store and manufacturer. This is Umeà.",
     image: "/one.jpg",
   },
   {
     id: 2,
     topic: "FURNITURE",
-    title: "Better interiors",
-    last: "The perfect place for every contemporary furniture store and manufacturer This is I Imea",
+    title: "Superior living",
+    last: "The perfect plcontemporary macure anC",
     image: "/two.jpg",
   },
   {
