@@ -39,7 +39,7 @@ const Slider = () => {
   return (
     <div className="relative flex flex-col h-36 w-96 md:h-[calc(100vh-9rem)] lg:flex-row">
       {/* IMAGE CONTAINER  */}
-      <div className="w-full flex-1 relative">
+      {/* <div className="w-full flex-1 relative">
         <Image
           src={data[currentSlide].image}
           alt="slider for image"
@@ -57,6 +57,27 @@ const Slider = () => {
             {data[currentSlide].title}
           </h2>
           <p className="text-white text-lg font-serif text-center pl-12 pr-32 pt-5">
+            {data[currentSlide].last}
+          </p>
+        </div>
+      </div> */}
+      <div className="w-full flex-1 relative">
+        <Image
+          src={data[currentSlide].image}
+          alt="slider for image"
+          layout="responsive"
+          width={1920}
+          height={1080}
+          objectFit="cover"
+        />
+        <div className="absolute top-0 left-0 w-full mt-20">
+          <p className="text-white text-lg pl-12 pr-12 pt-5 font-[Roboto]">
+            {data[currentSlide].topic}
+          </p>
+          <h2 className="text-white text-4xl font-bold pl-12 pr-12 pt-5 font-[Roboto]">
+            {data[currentSlide].title}
+          </h2>
+          <p className="text-white text-lg font-serif pl-12 pr-32 pt-5">
             {data[currentSlide].last}
           </p>
         </div>
