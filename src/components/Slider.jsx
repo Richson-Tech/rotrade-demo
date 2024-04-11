@@ -48,12 +48,17 @@ const Slider = () => {
           height={1080} // Adjust this value based on your image aspect ratio
           objectFit="cover"
         />
-        <div className="absolute top-0 left-0 w-full text-center">
-          <p className="text-white text-lg"> {data[currentSlide].topic}</p>
-          <h2 className="text-white text-4xl font-bold">
+        <div className="absolute top-0 left-0 w-full mt-20 text-center">
+          <p className="text-white text-lg pl-12 pr-12 pt-5 font-roboto">
+            {" "}
+            {data[currentSlide].topic}
+          </p>
+          <h2 className="text-white text-4xl font-bold text-center pl-22 pr-22 pt-5">
             {data[currentSlide].title}
           </h2>
-          <p className="text-white text-lg">{data[currentSlide].last}</p>
+          <p className="text-white text-lg font-serif text-center pl-12 pr-12 pt-5">
+            {data[currentSlide].last}
+          </p>
         </div>
       </div>
     </div>
