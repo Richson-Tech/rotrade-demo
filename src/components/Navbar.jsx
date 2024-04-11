@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 p-4 flex justify-between items-center">
       {/* Left content */}
-      <div className="text-white">LOTRADE</div>
+      <div className="text-white font-[Actor]">LOTRADE</div>
 
       {/* Right content */}
       <div className="flex items-center">
@@ -20,7 +20,7 @@ const Navbar = () => {
 
         {/* Dropdown */}
         <div>
-         <Menu/>
+          <Menu />
         </div>
       </div>
     </nav>
