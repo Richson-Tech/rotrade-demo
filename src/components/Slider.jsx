@@ -6,17 +6,18 @@ const data = [
   {
     id: 1,
     title: "always fresh & always crispy & always hot",
-    image: "/slide1.jpg",
+    image: "/one.jpg",
   },
   {
     id: 2,
     title: "we deliver your order wherever you are in NY",
-    image: "/slide2.jpg",
+    image: "/two.jpg",
   },
   {
-    id: 3,
-    title: "the best pizza to share with your family",
-    image: "/slide3.jpg",
+      id: 3,
+      topic:"FURNITURE",
+    title: "Better interiors",
+    image: "/three.jpg",
   },
 ];
 
@@ -31,7 +32,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-[#facc15]">
+    <div className="relative flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-[#facc15]">
       {/* TEXT CONTAINER  */}
       <div className="flex-1 flex items-center justify-center flex-col gap-8 text-black font-bold">
         <h1 className="text-5xl text-center uppercase p-4 md:p-10 md:text-6xl xl:text-7xl">
@@ -40,7 +41,7 @@ const Slider = () => {
         <button className="bg-[#00A082] text-white py-4 px-8">Order Now</button>
       </div>
       {/* IMAGE CONTAINER  */}
-      <div className="w-full flex-1 relative">
+      <div className="w-full flex-1 absolute">
         <Image
           src={data[currentSlide].image}
           alt="slider for image"
