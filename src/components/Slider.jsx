@@ -21,7 +21,7 @@ const data = [
     id: 3,
     topic: "FURNITURE",
     title: "Better interiors",
-    last: "The perfect place for every contemporary furniture store and manufacturer This is I Imea",
+    last: "The perfect place for every contemporary furniture store and manufacturer",
     image: "/three.jpg",
   },
 ];
@@ -77,7 +77,7 @@ const Slider = () => {
           <h2 className="text-white text-4xl font-bold pl-12 pr-12 pt-5 font-[Roboto]">
             {data[currentSlide].title}
           </h2>
-          <p className="text-white text-lg font-serif pl-12 pr-32 pt-5">
+          <p className="text-white text-lg font-serif pl-12 pr-12 pt-5">
             {data[currentSlide].last}
           </p>
         </div>
