@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex flex-row text-white mr-4">
           <h6>Cart</h6>
           <RiShoppingCartLine size={24} />
-          <PiNumberCircleOneBold />
+          <MdExposureZero />
         </div>
 
         {/* Dropdown */}
