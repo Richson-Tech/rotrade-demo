@@ -45,18 +45,18 @@ const Slider = () => {
           alt="slider for image"
           layout="responsive"
           width={1920}
-          height={1080} 
+          height={1080}
           objectFit="cover"
         />
-        <div className="absolute top-0 left-0 w-full mt-20 text-center">
-          <p className="text-white text-lg pl-12 pr-12 pt-5 font-roboto">
+        <div className="absolute top-0 left-0 w-full mt-20">
+          <p className="text-white text-lg pl-12 pr-12 pt-5 font-[Roboto]">
             {" "}
             {data[currentSlide].topic}
           </p>
-          <h2 className="text-white text-4xl font-bold text-center pl-22 pr-22 pt-5">
+          <h2 className="text-white text-4xl font-bold pl-12 pr-32 pt-5 font-[Roboto]">
             {data[currentSlide].title}
           </h2>
-          <p className="text-white text-lg font-serif text-center pl-12 pr-12 pt-5">
+          <p className="text-white text-lg font-serif text-center pl-12 pr-32 pt-5">
             {data[currentSlide].last}
           </p>
         </div>
