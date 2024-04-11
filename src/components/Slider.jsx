@@ -45,7 +45,7 @@ const Slider = () => {
           alt="slider for image"
           layout="responsive"
           width={1920}
-          height={1080} // Adjust this value based on your image aspect ratio
+          height={1080} 
           objectFit="cover"
         />
         <div className="absolute top-0 left-0 w-full mt-20 text-center">
